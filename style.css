@@ -742,7 +742,7 @@ footer {
 }
 
 
-@media screen and (max-width: 1155px) {
+/* @media screen and (max-width: 1155px) {
   .signin button {
     display: none;
   }
@@ -865,4 +865,4 @@ footer {
   .where {
     font-size: 1em;
   }
-}
+} */
