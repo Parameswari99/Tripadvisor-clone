@@ -733,7 +733,7 @@ footer {
 }
 
 
-@media screen and (max-width: 549px) {
+@media screen and (max-width: 849px) {
   .headersearch {
     display: none;
   }
@@ -764,6 +764,72 @@ footer {
   }
   .footerbottom__rightbottom span .fa-brands {
     scale: 1.5;
+  }
+  .headersearch {
+    display: none;
+  }
+  .bodysearch {
+    display: inline-block;
+    width: 90%;
+  }
+  .introbox {
+    top: 10px;
+  }
+  .awardwinning {
+    margin-top: 50px;
+  }
+  .nav {
+    justify-content: flex-start;
+  }
+  .where {
+    font-size: 1em;
+  }
+  .container3 h4 {
+    line-height: 1em;
+  }
+   footer h1 {
+    width: 100%;
+    font-size: 2em;
+    text-align: center;
+  }
+  .container3 h4 {
+    font-size: 2em;
+    line-height: 1em;
+    margin-bottom: 20px;
+  }
+  .conotainer p {
+    line-height: 1em;
+  }
+  .headermenu {
+    display: none;
+  }
+  .headerlogin .earth {
+    display: none;
+  }
+  .headertop .fa-bars {
+    display: inline-block;
+  }
+  .container3 {
+    width: 90%;
+  }
+  .sponsor {
+    flex-direction: column;
+  }
+  .awardwinning {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 839px) {
+  .introbox {
+    width: 90%;
+    height: fit-content;
+    margin-left: 20px;
+  }
+  .introbox-text{
+    align-self: start;
+  }
+  .introbox-credit{
+    height: 350px;
   }
 }
 
