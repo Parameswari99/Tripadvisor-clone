@@ -772,8 +772,17 @@ footer {
     height: 350px;
   }
   .image-section1-card{
-  flex-wrap: wrap;
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
   }
+  .image1-items img{
+    width: 300px;
+    height: 300px;
+
+    
+}
   .chennai__container{
      flex-wrap: wrap;     
 }
