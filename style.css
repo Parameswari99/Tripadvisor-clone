@@ -282,17 +282,8 @@ ul {
     font-size: 15px;
 }
 .award-winning{
-  margin: 130px 0 50px;
-  width: 85%;
-  position: relative;
-  left: 50%;
-  transform: translateX(-50%);
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-    padding: 30px;
-    width: 100%;
-    
+  padding: 30px;
+  padding-left: 75px;
 }
 .award-winning h3{
     font-size: 24px;
@@ -305,29 +296,23 @@ ul {
     padding-bottom: 15px;
     margin-bottom: 20px;
 }
-.image-section1{
-  width: 100%;
-  border-radius: 10px;
-}
 .image-section1-card{
-  width: 100%;
+  width: 90%;
     gap: 10px;
   display: flex;
-  position: relative;
+  margin-left: 5%;
 }
-
 .image1-items{
     position: relative;
-  
 }
 .image1-items img{
     width: 100%;
     cursor: pointer;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 .card-credit{
     position: absolute;
-    bottom: 20px;
+    bottom: 5px;
     left: 5px;
     font-size: 25px;
     font-weight: 900;
@@ -336,18 +321,17 @@ ul {
     text-shadow: 1px -5px 3px #FF0000;
 }
 .chennai{
-    padding: 10px;
+    padding-left: 75px;
 }
 .chennai__container{
      display: flex;
-      flex-wrap: wrap;
-    justify-content: space-around;
-    margin-top: 10px;
-    
+      width: 90%;
+    gap: 10px;
+  display: flex;
+  margin-left: 5%;     
 }
 .chennai-card{
-    flex-grow: 1;
-    flex-basis: 20%;
+
     margin: 5px;
     cursor: pointer;
     position: relative;
@@ -374,6 +358,7 @@ ul {
 .container3 {
     max-width: 1500px;
     padding: 30px;
+    padding-left: 75px;
     width: 100%;
     margin-inline: auto;
 }
@@ -396,7 +381,7 @@ ul {
     left: 15px;
 }
 .inner-text button{
-    background-color: #fff;
+    background-color: gray;
     border: none;
     border-radius: 50px;
     padding: 15px 20px;
@@ -405,8 +390,8 @@ ul {
     cursor: pointer;
 }
 .inner-text button:hover{
-    background-color:gray;
-    color: white;
+    background-color:#fff;
+    color: black;
 }
 .inner-text h4{
     font-size: 64px;
@@ -495,17 +480,6 @@ ul {
   position: relative;
 }
 
-.card-credit{
-    position: absolute;
-    bottom: 20px;
-    left: 5px;
-    font-size: 25px;
-    font-weight: 900;
-    color:white;
-    cursor: pointer;
-    text-shadow: 1px -5px 3px #FF0000;
-}
-
 .sponsor{
   display: flex;
   justify-content: center;
@@ -540,9 +514,13 @@ ul {
   color: white;
   cursor: pointer;
 }
+.sponsor-container__s2 a{
+  cursor: pointer;
+}
 .sponsor-container__s2 button:hover{
   background-color: #143C24;
 }
+
 .awards {
   width: 100%;
   height: fit-content;
@@ -777,6 +755,7 @@ footer {
   }
   .awardwinning {
     margin-top: 50px;
+   
   }
   .nav {
     justify-content: flex-start;
@@ -795,10 +774,7 @@ footer {
   .container3 h4 {
     font-size: 2em;
     line-height: 1em;
-    margin-bottom: 20px;
-  }
-  .conotainer p {
-    line-height: 1em;
+    margin-bottom: 10px;
   }
   .headermenu {
     display: none;
@@ -810,7 +786,7 @@ footer {
     display: inline-block;
   }
   .container3 {
-    width: 90%;
+    width: 100%;
   }
   .sponsor {
     flex-direction: column;
@@ -831,5 +807,13 @@ footer {
   .introbox-credit{
     height: 350px;
   }
+  .image-section1-card{
+  flex-wrap: wrap;
+  }
+  .chennai__container{
+     flex-wrap: wrap;     
 }
-
+.chennai__container p{
+  font-size: 20px
+}
+}
