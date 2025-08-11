@@ -780,8 +780,6 @@ footer {
   .image1-items img{
     width: 300px;
     height: 300px;
-
-    
 }
   .chennai__container{
      flex-wrap: wrap;     
@@ -798,7 +796,13 @@ footer {
   flex-direction: column;
 }
 .iconic-section-card{
-  flex-wrap: wrap;
-  flex-direction: column;
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
+.iconic-section-card img{
+   width: 300px;
+    height: 300px;
 }
 }
